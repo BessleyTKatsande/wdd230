@@ -1,0 +1,60 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightgrey;
+    font-family: 'Garamond', 'Lucida Bright', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: 'Garamond', 'Lucida Bright', sans-serif;
+}
+
+h3 {
+    background-color: lightgrey;
+    font-family: 'Garamond', 'Lucida Bright', sans-serif;
+}
+
+main section {
+    text-align: center;
+}
+
+ul.a {
+    text-align: left;
+    list-style-type: none;
+    border-style: solid;
+    padding: 40px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+.profile img {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+nav{
+   text-align: center;
+   list-style-type: none;
+   border-style: solid;
+   padding: 40px;
+   font-family: 'Roboto', Helvetica, sans-serif;
+   background-color: black;
+   color: white;
+}
+
+footer {
+    text-align: center;
+    list-style-type: none;
+    background-color: lightgrey;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}

@@ -1,14 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
+<style>
+  #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+ h1 {
+        text-align: center;
+        background-color: lightgrey;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    }
+
+ h2 {
+        text-align: center;
+        text-decoration-line: underline;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    }
+
+ h3 {
+        background-color: lightgrey;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    }
+
+ main section {
+        text-align: center;
+    }
+
+ ul.a {
+        text-align: left;
+        list-style-type: none;
+        border-style: solid;
+        padding: 40px;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        background-color: black;
+        color: white;
+   }
+
+
+ .profile img {
+        display: block;
+        float: left;
+        width: 100%;
+        height: auto;
+   }
+
+   nav{
+       text-align: center;
+       list-style-type: none;
+       border-style: solid;
+       padding: 40px;
+       font-family: 'Roboto', Helvetica, sans-serif;
+       background-color: black;
+       color: white;
+   }
+
+ footer {
+        text-align: center;
+        list-style-type: none;
+        background-color: lightgrey;
+        font-family: 'Roboto', Helvetica, sans-serif;
+    }
+</style>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temp Page</title>
+    <meta name="description"
+        content="This website belongs to Bessley Tawanda Katsande to complete assignments for the class WDD 230 - Web Frontend Development">
+    <meta name="author" content="Bessley Tawanda Katsande">
+    <title>Bessley Tawanda Katsande - WDD 230 - Web Frontend Development</title>
 </head>
 
 <body>
-    <h1>Temp Page</h1>
+    <header>
+        <img class="profile" src="images/me.png" alt="Logo">
+        <h1>Bessley Tawanda Katsande</h1>
+    </header>
+    <nav>
+        <li><a href="#">Home</a></li>
+        <li><a href="chamber/siteplan.html">Site Plan</a></li>
+        <li><a href="Chamber/">Chamber</a></li>
+        <li><a href="https://www.byui.edu/">BYU Idaho</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng">Scriptures</a></li>
+    </nav>
+
+    <main>
+        <h2>WDD 230: Web Frontend Development</h2>
+        <section attribute="card">
+            <h3>Learning Activities</h3>
+            <ul class="a">
+                    <li><a>Lesson 01: Home Page</a></li>
+                    <li><a>Lesson 02: Design Principles Document</a></li>
+                    <li><a>Lesson 03: Chamber Site Plan</a></li>
+                    <li><a>Lesson 04: Chamber Home</a></li>
+                    <li><a>Lesson 05: Book of Mormon App</a></li>
+                    <li><a>Lesson 06: Course Home Enhancement</a></li>
+                    <li><a>Lesson 07: Chamber Discover</a></li>
+                    <li><a>Lesson 08: Form Page Build</a></li>
+                    <li><a>Lesson 09: Chamber Directory</a></li>
+                    <li><a>Lesson 10: Weather API</a></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h3>Information</h3>
+        </section>
+    </main>
+    <footer>
+        <li><p>&copy; <span id="copyrightYear"></span>Bessley Tawanda Katsande, Cape Town South Africa</p></li>
+        <li><p>alert(document.lastModified)</p></li>
+    </footer>
+    <a href="getdates.js"</a>
 </body>
 
 </html>
