@@ -1,0 +1,289 @@
+@media screen and (min-width: 500px) {
+
+    body {
+        background-color: lightblue;
+    }
+
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+ h1 {
+        text-align: center;
+        background-color: #e1873d;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+        padding: 60px;
+    }
+
+ h2 {
+        text-align: center;
+        text-decoration-line: underline;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    }
+
+ h3 {
+        background-color: #e1873d;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    }
+
+ main section {
+        text-align: center;
+    }
+
+ ul.a {
+        text-align: left;
+        list-style-type: none;
+        border-style: solid;
+        padding: 40px;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        background-color: #5c3755;
+        color: white;
+   }
+ 
+
+ .profile {
+        display: block;
+        float: left;
+        width: 200px;
+        height: auto;
+        object-fit: scale-down;
+   }
+
+   nav{
+       text-align: center;
+       list-style-type: none;
+       border-style: solid;
+       padding: 40px;
+       font-family: 'Roboto', Helvetica, sans-serif;
+       background-color: #5c3755;
+       color: white;
+   }
+
+ footer {
+        text-align: center;
+        list-style-type: none;
+        background-color: #5c3755;
+        font-family: 'Roboto', Helvetica, sans-serif;
+    }
+}
+   
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+ h1 {
+        text-align: center;
+        background-color: #e1873d;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+        padding: 60px;
+    }
+
+ h2 {
+        text-align: center;
+        text-decoration-line: underline;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    }
+
+ h3 {
+        background-color: #e1873d;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    }
+
+ main section {
+        text-align: center;
+    }
+
+ ul.a {
+        text-align: left;
+        list-style-type: none;
+        border-style: solid;
+        padding: 40px;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        background-color: #5c3755;
+        color: white;
+   }
+ 
+
+ .profile {
+        display: block;
+        float: left;
+        width: 200px;
+        height: auto;
+        object-fit: scale-down;
+   }
+
+   nav{
+       text-align: center;
+       list-style-type: none;
+       border-style: solid;
+       padding: 40px;
+       font-family: 'Roboto', Helvetica, sans-serif;
+       background-color: #5c3755;
+       color: white;
+   }
+
+ footer {
+        text-align: center;
+        list-style-type: none;
+        background-color: #5c3755;
+        font-family: 'Roboto', Helvetica, sans-serif;
+    }
+} 
+  
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: lightblue;
+    }
+
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+ h1 {
+        text-align: center;
+        background-color: #e1873d;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+        padding: 60px;
+    }
+
+ h2 {
+        text-align: center;
+        text-decoration-line: underline;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    }
+
+ h3 {
+        background-color: #e1873d;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    }
+
+ main section {
+        text-align: center;
+    }
+
+ ul.a {
+        text-align: left;
+        list-style-type: none;
+        border-style: solid;
+        padding: 40px;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        background-color: #5c3755;
+        color: white;
+   }
+ 
+
+ .profile {
+        display: block;
+        float: left;
+        width: 200px;
+        height: auto;
+        object-fit: scale-down;
+   }
+
+   nav{
+       text-align: center;
+       list-style-type: none;
+       border-style: solid;
+       padding: 40px;
+       font-family: 'Roboto', Helvetica, sans-serif;
+       background-color: #5c3755;
+       color: white;
+   }
+
+ footer {
+        text-align: center;
+        list-style-type: none;
+        background-color: #5c3755;
+        font-family: 'Roboto', Helvetica, sans-serif;
+    }
+} 
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: lightblue;
+    }
+
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+ h1 {
+        text-align: center;
+        background-color: #e1873d;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+        padding: 60px;
+    }
+
+ h2 {
+        text-align: center;
+        text-decoration-line: underline;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    }
+
+ h3 {
+        background-color: #e1873d;
+        font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    }
+
+ main section {
+        text-align: center;
+    }
+
+ ul.a {
+        text-align: left;
+        list-style-type: none;
+        border-style: solid;
+        padding: 40px;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        background-color: #5c3755;
+        color: white;
+   }
+ 
+
+ .profile {
+        display: block;
+        float: left;
+        width: 200px;
+        height: auto;
+        object-fit: scale-down;
+   }
+
+   nav{
+       text-align: center;
+       list-style-type: none;
+       border-style: solid;
+       padding: 40px;
+       font-family: 'Roboto', Helvetica, sans-serif;
+       background-color: #5c3755;
+       color: white;
+   }
+
+ footer {
+        text-align: center;
+        list-style-type: none;
+        background-color: #5c3755;
+        font-family: 'Roboto', Helvetica, sans-serif;
+    }
+}
+
+/* Larger Views ******************************/
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+}

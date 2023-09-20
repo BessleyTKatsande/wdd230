@@ -5,8 +5,9 @@
 
 h1 {
     text-align: center;
-    background-color: lightgrey;
+    background-color: #e1873d;
     font-family: 'Garamond', 'Lucida Bright', sans-serif;
+    padding: 60px;
 }
 
 h2 {
@@ -16,7 +17,7 @@ h2 {
 }
 
 h3 {
-    background-color: lightgrey;
+    background-color: #e1873d;
     font-family: 'Garamond', 'Lucida Bright', sans-serif;
 }
 
@@ -30,16 +31,17 @@ ul.a {
     border-style: solid;
     padding: 40px;
     font-family: 'Roboto', Helvetica, sans-serif;
-    background-color: black;
+    background-color: #5c3755;
     color: white;
 }
 
 
-.profile img {
+.profile {
     display: block;
     float: left;
-    width: 100%;
+    width: 200px;
     height: auto;
+    object-fit: scale-down;
 }
 
 nav{
@@ -48,13 +50,67 @@ nav{
    border-style: solid;
    padding: 40px;
    font-family: 'Roboto', Helvetica, sans-serif;
-   background-color: black;
+   background-color: #5c3755;
    color: white;
 }
 
 footer {
     text-align: center;
     list-style-type: none;
-    background-color: lightgrey;
+    background-color: #5c3755;
     font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Sansita", sans-serif;
+}
+
+/* mobile **************************/
+header {
+	background-color: #bbb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header,
+main {
+	max-width: 767px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	border: 1px solid #fff;
+}
+
+.active {
+	color: yellow;
 }
