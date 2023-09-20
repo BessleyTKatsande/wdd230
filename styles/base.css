@@ -59,6 +59,7 @@ footer {
     list-style-type: none;
     background-color: #5c3755;
     font-family: 'Roboto', Helvetica, sans-serif;
+    color:white;
 }
 
 * {
@@ -73,12 +74,10 @@ body {
 
 /* mobile **************************/
 header {
-	background-color: #bbb;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 header,
