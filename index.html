@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+<script>
+// Store the selected elements that we are going to use. 
+const mainnav = document.querySelector('.navigation')
+const hambutton = document.querySelector('#menu');
+
+// Add a click event listender to the hamburger button and use a callback function that toggles the list element's list of classes.
+hambutton.addEventListener('click', () => {
+	mainnav.classList.toggle('show');
+	hambutton.classList.toggle('show');
+});
+
+/* ❔What does toggle mean?
+We could write separate add and remove statements. Toggle adds the class if it does not currently exist or removes the class if it does exist. 
+The CSS class rules will handle the different views, layouts, and displays.
+🗝️ JavaScript only applies the class value or not.
+*/
+</script>
+
 <head>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -23,13 +41,18 @@
         <img class="profile" src="images/me.jpg" alt="Logo">
         <h1>Bessley Tawanda Katsande</h1>
     </header>
-    <nav>
-        <li><a href="#">Home</a></li>
-        <li><a href="chamber/siteplan.html">Site Plan</a></li>
-        <li><a href="Chamber/">Chamber</a></li>
-        <li><a href="https://www.byui.edu/">BYU Idaho</a></li>
-        <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng">Scriptures</a></li>
-    </nav>
+
+    <label id="menu" href="#">
+        <nav>
+            </ul class = "navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="chamber/siteplan.html">Site Plan</a></li>
+                <li><a href="Chamber/">Chamber</a></li>
+                <li><a href="https://www.byui.edu/">BYU Idaho</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng">Scriptures</a></li>
+            </ul>
+        </nav>
+    </label>
 
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
@@ -38,7 +61,7 @@
             <ul class="a">
                     <li><a href="https://bessleytkatsande.github.io/wdd230/week%201/styles/holygrail.html">Lesson 01: Holy Grail</a></li>
                     <li><a href="https://bessleytkatsande.github.io/wdd230/lesson02/design-principles.html">Lesson 02: Design Principles Document</a></li>
-                    <li><a>Lesson 03: Chamber Site Plan</a></li>
+                    <li><a href="https://bessleytkatsande.github.io/wdd230/images/csscomb.png">Lesson 03: Chamber Site Plan</a></li>
                     <li><a>Lesson 04: Chamber Home</a></li>
                     <li><a>Lesson 05: Book of Mormon App</a></li>
                     <li><a>Lesson 06: Course Home Enhancement</a></li>
@@ -53,7 +76,7 @@
         </section>
     </main>
     <iframe>
-        <a href="/images/map.png"></a> 
+        <img src="images/map.png" alt="Geo"></a> 
     </iframe>
     <footer>
         <li><p>&copy; <span id="copyrightYear"></span>Bessley Tawanda Katsande, Cape Town South Africa</p></li>
