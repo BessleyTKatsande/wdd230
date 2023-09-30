@@ -1,0 +1,175 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #3a0314;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color:white;
+}
+
+body{
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    background-color: #3a0314;
+    font-family: "Times New Roman", Times, serif;
+    padding: 60px;
+}
+
+h2 {
+    text-align: center;
+    background-color: #e1873d;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h4 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+ul.list {
+    text-align: left;
+    list-style-type: none;
+    border-style: solid;
+    padding: 40px;
+    font-size: 18px;
+    background-color: #3a0314;
+    color: white;
+}
+
+a {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+main{
+    grid-template-columns: auto auto auto;
+    display: grid;
+    padding: 10px;
+}
+
+div {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.color-scheme {
+    border: 10px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Header-color{
+    color:white;
+}
+
+.Header-background{
+    background-color:#3a0314;
+    color:white;
+}
+
+.Heading1-color{
+    color:white;
+}
+
+.Heading1-background{
+    background-color:#3a0314;
+    color: white
+}
+
+.Heading2-color{
+    color:black;
+}
+
+.Heading2-background{
+    background-color:#e1873d;
+}
+
+.Heading4-color{
+    color:black;
+}
+
+.Heading4-background{
+    background-color: lightblue;
+}
+
+.paragraph-color{
+    color:black;
+}
+
+.paragraph-background{
+    background-color: lightblue;
+}
+
+.Footer-color{
+    color:white;
+}
+
+.Footer-background{
+    background-color: #3a0314;
+    color: white
+}
+
+.typography {
+    border: 10px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Header-sample{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.Heading1-sample{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+}
+
+.Heading2-sample{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+}
+
+.Heading4-sample{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+}
+
+.paragraph-font{
+    font-size: 18px;
+}
+
+.paragraph-sample{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.Footer-sample{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.guide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #3a0314;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color:white;
+}

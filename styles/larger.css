@@ -57,6 +57,14 @@
         object-fit: scale-down;
    }
 
+ .location {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        height: auto;
+   }
+
    nav{
        text-align: center;
        list-style-type: none;
