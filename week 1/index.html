@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<script>
+// Store the selected elements that we are going to use. 
+const mainnav = document.querySelector('.navigation')
+const hambutton = document.querySelector('#menu');
+
+// Add a click event listender to the hamburger button and use a callback function that toggles the list element's list of classes.
+hambutton.addEventListener('click', () => {
+	mainnav.classList.toggle('show');
+	hambutton.classList.toggle('show');
+});
+
+/* ❔What does toggle mean?
+We could write separate add and remove statements. Toggle adds the class if it does not currently exist or removes the class if it does exist. 
+The CSS class rules will handle the different views, layouts, and displays.
+🗝️ JavaScript only applies the class value or not.
+*/
+</script>
+
+<head>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This website belongs to Bessley Tawanda Katsande to complete assignments for the class WDD 230 - Web Frontend Development">
+    <meta name="author" content="Bessley Tawanda Katsande">
+    <title>Bessley Tawanda Katsande - WDD 230 - Web Frontend Development</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta property="og:title" content="Home Page">
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://thumbs.dreamstime.com/z/street-scene-businesses-vehicles-people-goodwood-goodwood-south-africa-august-street-scene-businesses-vehicles-129710315.jpg?w=992">
+    <meta property="og:url" content="https://bessleytkatsande.github.io/wdd230/index.html">
+</head>
+
+<body>
+    <header>
+        <img class="profile" src="images/me.jpg" alt="Logo">
+        <h1>Bessley Tawanda Katsande</h1>
+    </header>
+
+    <label id="menu" href="#">
+        <nav>
+            </ul class = "navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="chamber/siteplan.html">Site Plan</a></li>
+                <li><a href="Chamber/">Chamber</a></li>
+                <li><a href="https://www.byui.edu/">BYU Idaho</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng">Scriptures</a></li>
+            </ul>
+        </nav>
+    </label>
+    <br>
+    <main>
+        <h2>WDD 230: Web Frontend Development</h2>
+        <section attribute="card">
+            <h3>Learning Activities</h3>
+            <ul class="a">
+                    <li><a href="https://bessleytkatsande.github.io/wdd230/week%201/styles/holygrail.html">Lesson 01: Holy Grail</a></li>
+                    <li><a href="https://bessleytkatsande.github.io/wdd230/lesson02/design-principles.html">Lesson 02: Design Principles Document</a></li>
+                    <li><a href="https://bessleytkatsande.github.io/wdd230/lesson03/chamber-site-plan.html">Lesson 03: Chamber Site Plan</a></li>
+                    <li><a>Lesson 04: Chamber Home</a></li>
+                    <li><a>Lesson 05: Book of Mormon App</a></li>
+                    <li><a>Lesson 06: Course Home Enhancement</a></li>
+                    <li><a>Lesson 07: Chamber Discover</a></li>
+                    <li><a>Lesson 08: Form Page Build</a></li>
+                    <li><a>Lesson 09: Chamber Directory</a></li>
+                    <li><a>Lesson 10: Weather API</a></li>
+            </ul>
+        </section>
+        <br>
+        <section class="card">
+            <h3>Information</h3>
+        </section>
+    </main>
+    <br>
+    <iframe>
+        <img class="location" src="images/map.png" alt="Geo">
+    </iframe>
+    <footer>
+        <li><p>&copy; <span id="copyrightYear"></span>Bessley Tawanda Katsande, Cape Town South Africa</p></li>
+        <let text = document.lastModified>
+    </footer>
+</body>
+
+</html>
