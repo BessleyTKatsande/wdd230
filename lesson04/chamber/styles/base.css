@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #3a0314;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color:white;
+}
+
+body{
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    background-color: #3a0314;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    padding: 60px;
+}
+
+h2 {
+    text-align: center;
+    background-color: #e1873d;
+    font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #3a0314;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color:white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Roboto, sans-serif;
+}
+
+/* Mobile View ***************/
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #eee;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+nav {
+	background-color: #e1873d;
+}
+
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+    font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: black;
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+/* Media Query for wider than mobile viewports. Breakpoint should be based upon the design and content and use em units to be relative to the user's font size versus fixed with pixels.*/
+@media only screen and (min-width: 40em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+
+    .show li {
+        display: block;
+    }
+}

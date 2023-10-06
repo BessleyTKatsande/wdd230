@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script>
+// Store the selected elements that we are going to use. 
+const mainnav = document.querySelector('.navigation')
+const hambutton = document.querySelector('#menu');
+
+// Add a click event listender to the hamburger button and use a callback function that toggles the list element's list of classes.
+hambutton.addEventListener('click', () => {
+	mainnav.classList.toggle('show');
+	hambutton.classList.toggle('show');
+});
+
+/* ❔What does toggle mean?
+We could write separate add and remove statements. Toggle adds the class if it does not currently exist or removes the class if it does exist. 
+The CSS class rules will handle the different views, layouts, and displays.
+🗝️ JavaScript only applies the class value or not.
+*/
+</script>
+
+<head>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bessley Tawanda Katsande">
+    <title>Chamber Site</title>
+    <title>Bessley Tawanda Katsande - WDD 230 - Chamber Site</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta property="og:title" content="Home Page">
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://thumbs.dreamstime.com/z/street-scene-businesses-vehicles-people-goodwood-goodwood-south-africa-august-street-scene-businesses-vehicles-129710315.jpg?w=992">
+    <meta property="og:url" content="https://bessleytkatsande.github.io/wdd230/index.html">
+</head>
+
+<header> 
+    <h1>Cape Town Chamber of Commerce</h1>
+</header>
+
+<a id="menu" href="#"></a>
+<nav>
+	<ul class="navigation">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Discover</a></li>
+		<li><a href="#">Directory</a></li>
+		<li><a href="#">Join</a></li>
+	</ul>
+</nav>
+
+<body>
+ <main>
+    <section class="hero">
+        <img class="myhero" src="images/hero.png" alt="Geo">
+    </section>
+    <br>
+
+    <section class="calltoaction">
+        <h2>Call to action:</h2>
+    </section>
+    <br>
+
+    <section class="currentevents">
+        <h2>Events:</h2>
+    </section>
+    <br>
+
+    <section class="weathercard">
+        <h2>Weather:</h2>
+    </section>
+    <br>
+
+    <section class="spotlights">
+        <h2>Spot Light:</h2>
+    </section>
+
+ </main>
+
+    <br>
+    <footer>
+        <p>&copy; <span id="copyrightYear"></span>Bessley Tawanda Katsande, Cape Town South Africa</p>
+        <p>Project for WDD 230</p>
+        <p>Contact info: (717) 550-1675</p>
+        <let text = document.lastModified>
+    </footer>    
+</body>
+</html>

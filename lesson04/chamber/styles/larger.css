@@ -1,0 +1,220 @@
+@media (min-width: 37.5em) {#content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    
+    header{
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+    
+    body{
+        background-color: lightblue;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: "Times New Roman", Times, serif;
+        padding: 60px;
+    }
+    
+    h2 {
+        text-align: center;
+        background-color: #e1873d;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    
+    header{
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+    
+    body{
+        background-color: lightblue;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: "Times New Roman", Times, serif;
+        padding: 60px;
+    }
+    
+    h2 {
+        text-align: center;
+        background-color: #e1873d;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    
+    header{
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+    
+    body{
+        background-color: lightblue;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: "Times New Roman", Times, serif;
+        padding: 60px;
+    }
+    
+    h2 {
+        text-align: center;
+        background-color: #e1873d;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    
+    header{
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+    
+    body{
+        background-color: lightblue;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: "Times New Roman", Times, serif;
+        padding: 60px;
+    }
+    
+    h2 {
+        text-align: center;
+        background-color: #e1873d;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    
+    header{
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+    
+    body{
+        background-color: lightblue;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: "Times New Roman", Times, serif;
+        padding: 60px;
+    }
+    
+    h2 {
+        text-align: center;
+        background-color: #e1873d;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+}
+
+@media (min-width: 640px) {
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    
+    header{
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+    
+    body{
+        background-color: lightblue;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: "Times New Roman", Times, serif;
+        padding: 60px;
+    }
+    
+    h2 {
+        text-align: center;
+        background-color: #e1873d;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #3a0314;
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color:white;
+    }
+}
