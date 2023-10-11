@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+const input = document.querySelector('#favchap');
+const button = document.querySelector('button');
+const list = document.querySelector('#list');
+
+button.addEventListener('click', function() {
+    if (input.value == '') {
+        alert('No chapter has been selected. Please try again.');
+        input.focus();
+    }
+    else {
+        const listItem = document.createElement('li');
+        const deleteButton = document.createElement('button');
+        listItem.innerHTML = `<a href='https://www.churchofjesuschrist.org/study/scriptures/bofm?lang=eng'>${input.value}</a>`;
+        deleteButton.textContent = '×';
+        listItem.append(deleteButton);
+        list.append(listItem);
+        deleteButton.addEventListener('click', () => {
+            list.removeChild(listItem);
+            input.focus();
+            input.value = '';
+        });
+    }
+});
+</script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation - Book of Mormon</title>
+</head>
+
+<body>
+    <h1>📖 Book of Mormon - Top 10</h1>
+<main>
+	<label for="favchap">Enter Book and Chapter: </label>
+	<input type="text" id="favchap" placeholder="Alma 5" value="Alma 5">
+	<button type="submit">Add Chapter</button>
+	<ul id="list"></ul>
+</main>
+</body>
+
+</html>
